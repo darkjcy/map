@@ -1,0 +1,647 @@
+﻿Log file open, 04/13/17 03:52:38
+LogInit:Display: Running engine for game: map
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1570891782) SRandInit(1570891784).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.088364
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.12-18.52.38:749][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.12-18.52.38:749][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.12-18.52.38:763][  0]LogInit: Computer: DESKTOP-F27I5IQ
+[2017.04.12-18.52.38:763][  0]LogInit: User: duck2
+[2017.04.12-18.52.38:763][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.12-18.52.38:763][  0]LogInit: High frequency timer resolution =3.117780 MHz
+[2017.04.12-18.52.38:763][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2017.04.12-18.52.38:763][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.12-18.52.38:763][  0]LogMemory: Process Physical Memory: 191.16 MB used, 191.16 MB peak
+[2017.04.12-18.52.38:763][  0]LogMemory: Process Virtual Memory: 195.23 MB used, 195.23 MB peak
+[2017.04.12-18.52.38:763][  0]LogMemory: Physical Memory: 2987.06 MB used, 3996.15 MB total
+[2017.04.12-18.52.38:763][  0]LogMemory: Virtual Memory: 538.67 MB used, 134217728.00 MB total
+[2017.04.12-18.52.38:829][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.04.12-18.52.38:874][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2017.04.12-18.52.38:874][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2017.04.12-18.52.38:874][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2017.04.12-18.52.38:874][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2017.04.12-18.52.38:995][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.12-18.52.39:032][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2017.04.12-18.52.39:032][  0]LogD3D11RHI:       993/0/1998 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.12-18.52.39:046][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.04.12-18.52.39:046][  0]LogD3D11RHI:       112/0/1998 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.04.12-18.52.39:052][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.12-18.52.39:052][  0]LogD3D11RHI:       0/0/1998 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.12-18.52.39:052][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.12-18.52.39:058][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.12-18.52.39:058][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.12-18.52.39:058][  0]LogWindows: EnumDisplayDevices:
+[2017.04.12-18.52.39:059][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2017.04.12-18.52.39:060][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.04.12-18.52.39:060][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.04.12-18.52.39:061][  0]LogWindows:    3. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.04.12-18.52.39:062][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.12-18.52.39:062][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.04.12-18.52.39:063][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[2017.04.12-18.52.39:063][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2017.04.12-18.52.39:063][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.04.12-18.52.39:063][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.04.12-18.52.39:063][  0]LogRHI: Texture pool is 695 MB (70% of 993 MB)
+[2017.04.12-18.52.39:082][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.12-18.52.39:095][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.12-18.52.39:096][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../../Users/duck2/Downloads/map/Intermediate/Shaders/WorkingDirectory/13568/).
+[2017.04.12-18.52.39:096][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/duck2/AppData/Local/Temp/UnrealShaderWorkingDir/1725C60B4764A5BF75236D97E3BB6817/'.
+[2017.04.12-18.52.39:096][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.12-18.52.40:505][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.12-18.52.40:517][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.12-18.52.40:528][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.12-18.52.40:540][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.12-18.52.40:552][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.12-18.52.40:561][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.12-18.52.40:571][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.12-18.52.40:580][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.12-18.52.40:590][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.12-18.52.40:599][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.12-18.52.40:608][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.12-18.52.40:627][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.12-18.52.40:627][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.12-18.52.40:629][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.12-18.52.40:655][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.12-18.52.40:664][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.12-18.52.40:673][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.12-18.52.40:683][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.12-18.52.40:693][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.12-18.52.40:693][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.12-18.52.40:816][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.12-18.52.40:887][  0]LogDerivedDataCache: Loaded boot cache 0.07s 48MB C:/Users/duck2/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.04.12-18.52.40:887][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/duck2/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.04.12-18.52.40:887][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/duck2/Downloads/map/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.12-18.52.40:887][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.12-18.52.40:888][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/duck2/Downloads/map/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.12-18.52.40:888][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.12-18.52.40:905][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.12-18.52.40:919][  0]LogDerivedDataCache: Using Local data cache path C:/Users/duck2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.12-18.52.41:208][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.12-18.52.41:209][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.12-18.52.41:414][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.04.12-18.52.41:414][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.12-18.52.41:414][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.04.12-18.52.41:759][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.04.12-18.52.41:807][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.044031 seconds
+[2017.04.12-18.52.41:814][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.04.12-18.52.41:814][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2017.04.12-18.52.41:814][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.12-18.52.41:826][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.12-18.52.42:095][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.12-18.52.42:096][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.12-18.52.43:433][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.12-18.52.43:763][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.04.12-18.52.43:969][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.04.12-18.52.43:988][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.04.12-18.52.44:004][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.04.12-18.52.44:362][  0]LogEngine: Initializing Engine...
+[2017.04.12-18.52.44:364][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.04.12-18.52.44:366][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.04.12-18.52.44:544][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.04.12-18.52.44:582][  0]LogInit: XAudio2 using '헤드폰(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.12-18.52.44:629][  0]LogInit: FAudioDevice initialized.
+[2017.04.12-18.52.44:671][  0]LogDerivedDataCache: Saved boot cache 0.04s 48MB C:/Users/duck2/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.04.12-18.52.44:681][  0]LogInit: Texture streaming: Enabled
+[2017.04.12-18.52.44:719][  0]LogInit: Transaction tracking system initialized
+[2017.04.12-18.52.44:751][  0]BlueprintLog: New page: 에디터 로드
+[2017.04.12-18.52.44:859][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.04.12-18.52.45:183][  0]LogConsoleResponse:Display: 
+[2017.04.12-18.52.45:348][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.04.12-18.52.45:348][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.12-18.52.45:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/duck2/Downloads/map/Content/' took 0.03s
+[2017.04.12-18.52.45:508][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.04.12-18.52.45:509][  0]Cmd: MAP LOAD FILE="../../../../../../Users/duck2/Downloads/map/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.12-18.52.45:511][  0]LightingResults: New page: 라이팅 빌드
+[2017.04.12-18.52.45:514][  0]MapCheck: New page: 맵 체크
+[2017.04.12-18.52.45:514][  0]LightingResults: New page: 라이팅 빌드
+[2017.04.12-18.52.46:201][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.12-18.52.46:243][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.12-18.52.46:244][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.12-18.52.46:437][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 193.339ms.
+[2017.04.12-18.52.46:438][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.929
+[2017.04.12-18.52.46:701][  0]LogCollectionManager: Loaded 0 collections in 0.003987 seconds
+[2017.04.12-18.52.46:774][  0]LogFileCache: Scanning file cache for directory 'C:/Users/duck2/Downloads/map/Saved/Collections/' took 0.01s
+[2017.04.12-18.52.46:774][  0]LogFileCache: Scanning file cache for directory 'C:/Users/duck2/Downloads/map/Content/Developers/duck2/Collections/' took 0.01s
+[2017.04.12-18.52.46:774][  0]LogFileCache: Scanning file cache for directory 'C:/Users/duck2/Downloads/map/Content/Collections/' took 0.01s
+[2017.04.12-18.52.46:774][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.04.12-18.52.46:787][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2047 classes and 369 folders.
+[2017.04.12-18.52.46:801][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.12-18.52.46:801][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.12-18.52.46:802][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2017.04.12-18.52.46:811][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.12-18.52.47:043][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.04.12-18.52.47:059][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.12-18.52.47:145][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.12-18.52.47:165][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.04.12-18.52.47:200][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.12-18.52.47:201][  0]LogLoad: Full Startup: 9.52 seconds (BP compile: 0.12 seconds)
+[2017.04.12-18.52.47:201][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.12-18.52.47:201][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.12-18.52.47:221][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.04.12-18.52.47:225][  0]LogOcInput: OculusInput pre-init called
+[2017.04.12-18.52.47:251][  0]LogContentStreaming: Texture pool size now 200 MB
+[2017.04.12-18.52.47:477][  0]LogRenderer: Reallocating scene render targets to support 1208x660 (Frame:2).
+[2017.04.12-18.52.47:717][  2]LogAssetRegistry: Asset discovery search completed in 5.9814 seconds
+[2017.04.12-18.52.47:717][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.04.12-18.52.47:718][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2017.04.12-18.53.01:747][638]LogLinker:Warning: '/Game/ThirdPersonBP/b3/KakaoTalk_20161209_024639698' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.01:747][638]LogLinker:Warning: ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/b3/KakaoTalk_20161209_024639698_Mat.uasset 로드중 '/Game/ThirdPersonBP/b3/KakaoTalk_20161209_024639698' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.01:747][638]LoadErrors:Error: 오류 /Game/Landscapes/ThirdPersonBP/b3/KakaoTalk_20161209_024639698_Mat : 애셋에 대한 파일을 찾을 수 없습니다. /Game/ThirdPersonBP/b3/KakaoTalk_20161209_024639698
+[2017.04.12-18.53.01:747][638]LogLinker:Warning: '/Game/ThirdPersonBP/b3/KakaoTalk_20161209_024639698' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.01:748][638]LogLinker:Warning: ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/b3/KakaoTalk_20161209_024639698_Mat.uasset 로드중 '/Game/ThirdPersonBP/b3/KakaoTalk_20161209_024639698' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:773][638]LogLinker:Warning: '/Game/ThirdPersonBP/b1/KakaoTalk_20161208_203643273_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:773][638]LogLinker:Warning: ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/b1/b12.uasset 로드중 '/Game/ThirdPersonBP/b1/KakaoTalk_20161208_203643273_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:773][638]LoadErrors:Error: 오류 /Game/Landscapes/ThirdPersonBP/b1/b12 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/ThirdPersonBP/b1/KakaoTalk_20161208_203643273_Mat
+[2017.04.12-18.53.02:773][638]LogLinker:Warning: '/Game/ThirdPersonBP/b1/KakaoTalk_20161208_203643273_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:774][638]LogLinker:Warning: ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/b1/b12.uasset 로드중 '/Game/ThirdPersonBP/b1/KakaoTalk_20161208_203643273_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:780][638]LogLinker:Warning: '/Game/ThirdPersonBP/b3/KakaoTalk_20161208_194517291_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:780][638]LogLinker:Warning: ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/b3/b33.uasset 로드중 '/Game/ThirdPersonBP/b3/KakaoTalk_20161208_194517291_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:780][638]LoadErrors:Error: 오류 /Game/Landscapes/ThirdPersonBP/b3/b33 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/ThirdPersonBP/b3/KakaoTalk_20161208_194517291_Mat
+[2017.04.12-18.53.02:781][638]LogLinker:Warning: '/Game/ThirdPersonBP/b3/KakaoTalk_20161209_024639698_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:781][638]LogLinker:Warning: ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/b3/b33.uasset 로드중 '/Game/ThirdPersonBP/b3/KakaoTalk_20161209_024639698_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:781][638]LoadErrors:Error: 오류 /Game/Landscapes/ThirdPersonBP/b3/b33 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/ThirdPersonBP/b3/KakaoTalk_20161209_024639698_Mat
+[2017.04.12-18.53.02:781][638]LogLinker:Warning: '/Game/ThirdPersonBP/b3/KakaoTalk_20161208_194517291_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:781][638]LogLinker:Warning: ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/b3/b33.uasset 로드중 '/Game/ThirdPersonBP/b3/KakaoTalk_20161208_194517291_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:781][638]LogLinker:Warning: '/Game/ThirdPersonBP/b3/KakaoTalk_20161209_024639698_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:781][638]LogLinker:Warning: ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/b3/b33.uasset 로드중 '/Game/ThirdPersonBP/b3/KakaoTalk_20161209_024639698_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:791][638]LogLinker:Warning: '/Game/ThirdPersonBP/n3/bjbjkvvk_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:791][638]LogLinker:Warning: ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/n3/n3.uasset 로드중 '/Game/ThirdPersonBP/n3/bjbjkvvk_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:792][638]LoadErrors:Error: 오류 /Game/Landscapes/ThirdPersonBP/n3/n3 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/ThirdPersonBP/n3/bjbjkvvk_Mat
+[2017.04.12-18.53.02:792][638]LogLinker:Warning: '/Game/ThirdPersonBP/n3/bjbjkvvk_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:792][638]LogLinker:Warning: ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/n3/n3.uasset 로드중 '/Game/ThirdPersonBP/n3/bjbjkvvk_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:795][638]LogLinker:Warning: '/Game/ThirdPersonBP/o2/barrel_rust_by_zuuzu_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:795][638]LogLinker:Warning: ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/o2/o2.uasset 로드중 '/Game/ThirdPersonBP/o2/barrel_rust_by_zuuzu_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:795][638]LoadErrors:Error: 오류 /Game/Landscapes/ThirdPersonBP/o2/o2 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/ThirdPersonBP/o2/barrel_rust_by_zuuzu_Mat
+[2017.04.12-18.53.02:796][638]LogLinker:Warning: '/Game/ThirdPersonBP/o2/Steel_Panel_12_H_CM_1_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:796][638]LogLinker:Warning: ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/o2/o2.uasset 로드중 '/Game/ThirdPersonBP/o2/Steel_Panel_12_H_CM_1_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:796][638]LoadErrors:Error: 오류 /Game/Landscapes/ThirdPersonBP/o2/o2 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/ThirdPersonBP/o2/Steel_Panel_12_H_CM_1_Mat
+[2017.04.12-18.53.02:796][638]LogLinker:Warning: '/Game/ThirdPersonBP/o2/barrel_rust_by_zuuzu_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:796][638]LogLinker:Warning: ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/o2/o2.uasset 로드중 '/Game/ThirdPersonBP/o2/barrel_rust_by_zuuzu_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:796][638]LogLinker:Warning: '/Game/ThirdPersonBP/o2/Steel_Panel_12_H_CM_1_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:797][638]LogLinker:Warning: ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/o2/o2.uasset 로드중 '/Game/ThirdPersonBP/o2/Steel_Panel_12_H_CM_1_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:808][638]LogLinker:Warning: '/Game/ThirdPersonBP/wall2/depositphotos_12077276-Old-hollow-brick-wall_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:808][638]LogLinker:Warning: ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/wall2/wall2.uasset 로드중 '/Game/ThirdPersonBP/wall2/depositphotos_12077276-Old-hollow-brick-wall_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:808][638]LoadErrors:Error: 오류 /Game/Landscapes/ThirdPersonBP/wall2/wall2 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/ThirdPersonBP/wall2/depositphotos_12077276-Old-hollow-brick-wall_Mat
+[2017.04.12-18.53.02:809][638]LogLinker:Warning: '/Game/ThirdPersonBP/wall2/depositphotos_12077276-Old-hollow-brick-wall_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:809][638]LogLinker:Warning: ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/wall2/wall2.uasset 로드중 '/Game/ThirdPersonBP/wall2/depositphotos_12077276-Old-hollow-brick-wall_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:949][638]LogLinker:Warning: '/Game/ThirdPersonBP/b3/KakaoTalk_20161209_024639698' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.02:949][638]LoadErrors: 정보 로드에 실패했습니다. /Game/ThirdPersonBP/b3/KakaoTalk_20161209_024639698.KakaoTalk_20161209_024639698 레퍼런싱한 것: MaterialExpressionTextureSample_0
+[2017.04.12-18.53.02:949][638]LogLinker:Warning: NULL 로드중 '/Game/ThirdPersonBP/b3/KakaoTalk_20161209_024639698' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.03:003][638]LogLinker:Warning: '/Game/ThirdPersonBP/b1/KakaoTalk_20161208_203643273_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.03:004][638]LoadErrors: 정보 로드에 실패했습니다. /Game/ThirdPersonBP/b1/KakaoTalk_20161208_203643273_Mat.KakaoTalk_20161208_203643273_Mat 레퍼런싱한 것: b12
+[2017.04.12-18.53.03:004][638]LogLinker:Warning: NULL 로드중 '/Game/ThirdPersonBP/b1/KakaoTalk_20161208_203643273_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.03:036][638]LogLinker:Warning: '/Game/ThirdPersonBP/wall2/depositphotos_12077276-Old-hollow-brick-wall_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.03:036][638]LoadErrors: 정보 로드에 실패했습니다. /Game/ThirdPersonBP/wall2/depositphotos_12077276-Old-hollow-brick-wall_Mat.depositphotos_12077276-Old-hollow-brick-wall_Mat 레퍼런싱한 것: wall2
+[2017.04.12-18.53.03:036][638]LogLinker:Warning: NULL 로드중 '/Game/ThirdPersonBP/wall2/depositphotos_12077276-Old-hollow-brick-wall_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.03:038][638]LogLinker:Warning: '/Game/ThirdPersonBP/o2/barrel_rust_by_zuuzu_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.03:038][638]LoadErrors: 정보 로드에 실패했습니다. /Game/ThirdPersonBP/o2/barrel_rust_by_zuuzu_Mat.barrel_rust_by_zuuzu_Mat 레퍼런싱한 것: o2
+[2017.04.12-18.53.03:038][638]LogLinker:Warning: NULL 로드중 '/Game/ThirdPersonBP/o2/barrel_rust_by_zuuzu_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.03:038][638]LogLinker:Warning: '/Game/ThirdPersonBP/o2/Steel_Panel_12_H_CM_1_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.03:038][638]LoadErrors: 정보 로드에 실패했습니다. /Game/ThirdPersonBP/o2/Steel_Panel_12_H_CM_1_Mat.Steel_Panel_12_H_CM_1_Mat 레퍼런싱한 것: o2
+[2017.04.12-18.53.03:038][638]LogLinker:Warning: NULL 로드중 '/Game/ThirdPersonBP/o2/Steel_Panel_12_H_CM_1_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.03:040][638]LogLinker:Warning: '/Game/ThirdPersonBP/n3/bjbjkvvk_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.03:041][638]LoadErrors: 정보 로드에 실패했습니다. /Game/ThirdPersonBP/n3/bjbjkvvk_Mat.bjbjkvvk_Mat 레퍼런싱한 것: n3
+[2017.04.12-18.53.03:041][638]LogLinker:Warning: NULL 로드중 '/Game/ThirdPersonBP/n3/bjbjkvvk_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.03:043][638]LogLinker:Warning: '/Game/ThirdPersonBP/b3/KakaoTalk_20161208_194517291_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.03:043][638]LoadErrors: 정보 로드에 실패했습니다. /Game/ThirdPersonBP/b3/KakaoTalk_20161208_194517291_Mat.KakaoTalk_20161208_194517291_Mat 레퍼런싱한 것: b33
+[2017.04.12-18.53.03:043][638]LogLinker:Warning: NULL 로드중 '/Game/ThirdPersonBP/b3/KakaoTalk_20161208_194517291_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.03:044][638]LogLinker:Warning: '/Game/ThirdPersonBP/b3/KakaoTalk_20161209_024639698_Mat' 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.03:044][638]LoadErrors: 정보 로드에 실패했습니다. /Game/ThirdPersonBP/b3/KakaoTalk_20161209_024639698_Mat.KakaoTalk_20161209_024639698_Mat 레퍼런싱한 것: b33
+[2017.04.12-18.53.03:044][638]LogLinker:Warning: NULL 로드중 '/Game/ThirdPersonBP/b3/KakaoTalk_20161209_024639698_Mat' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.04.12-18.53.04:018][638]LogMaterial: Missing cached shader map for material KakaoTalk_20161209_024639698_Mat, compiling. 
+[2017.04.12-18.53.04:027][638]LogMaterial:Warning: Failed to compile Material /Game/Landscapes/ThirdPersonBP/b3/KakaoTalk_20161209_024639698_Mat.KakaoTalk_20161209_024639698_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.04.12-18.53.04:027][638]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.04.12-18.53.05:437][638]LogAIModule: Creating AISystem for world NewMap0101
+[2017.04.12-18.53.05:722][638]Cmd: MAP LOAD FILE="../../../../../../Users/duck2/Downloads/map/Content/Landscapes/NewMap0101.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.12-18.53.05:722][638]LightingResults: New page: 라이팅 빌드
+[2017.04.12-18.53.05:723][638]LoadErrors: New page: 맵 로드중: NewMap0101.umap
+[2017.04.12-18.53.05:727][638]MapCheck: New page: 맵 체크
+[2017.04.12-18.53.05:727][638]LightingResults: New page: 라이팅 빌드
+[2017.04.12-18.53.05:957][638]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.12-18.53.05:983][638]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.12-18.53.06:450][638]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 466.671ms.
+[2017.04.12-18.53.06:451][638]LogFileHelpers: Loading map 'NewMap0101' took 0.746
+[2017.04.12-18.53.06:510][639]Cmd: UpdateLandscapeEditorData -warnings
+[2017.04.12-18.53.06:532][639]Cmd: UpdateLandscapeEditorData
+[2017.04.12-18.53.12:689][673]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.04.12-18.53.16:205][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.12-18.53.16:209][ 14]PIE: New page: PIE 세션: NewMap0101 (2017. 4. 13. 오후 12:53:16)
+[2017.04.12-18.53.16:209][ 14]LogPlayLevel: Creating play world package: /Game/Landscapes/UEDPIE_0_NewMap0101
+[2017.04.12-18.53.16:239][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029696s)
+[2017.04.12-18.53.16:240][ 14]LogAIModule: Creating AISystem for world NewMap0101
+[2017.04.12-18.53.16:240][ 14]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2017.04.12-18.53.16:241][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Landscapes/NewMap0101.NewMap0101 to /Game/Landscapes/UEDPIE_0_NewMap0101.NewMap0101 (0.031950s)
+[2017.04.12-18.53.16:292][ 14]LogInit: XAudio2 using '헤드폰(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.12-18.53.16:312][ 14]LogInit: FAudioDevice initialized.
+[2017.04.12-18.53.16:407][ 14]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2017.04.12-18.53.16:466][ 14]LogWorld: Bringing World /Game/Landscapes/UEDPIE_0_NewMap0101.NewMap0101 up for play (max tick rate 0) at 2017.04.13-03.53.16
+[2017.04.12-18.53.16:469][ 14]LogWorld: Bringing up level for play took: 0.052704
+[2017.04.12-18.53.16:491][ 14]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.04.12-18.53.16:502][ 14]PIE: 정보 /Game/Landscapes/UEDPIE_0_NewMap0101 에 대한 에디터에서 플레이 시작 시간: 0.708
+[2017.04.12-19.02.41:706][774]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\duck2\Desktop\q1.FBX)
+[2017.04.12-19.02.41:782][774]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.04.12-19.02.41:782][774]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.04.12-19.02.41:782][774]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.04.12-19.02.41:782][774]LogFbx: ItemName: Model, ItemCount : 1
+[2017.04.12-19.02.41:782][774]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.04.12-19.02.41:782][774]LogFbx: ItemName: Material, ItemCount : 1
+[2017.04.12-19.02.41:782][774]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.04.12-19.02.41:782][774]LogFbx: ItemName: Video, ItemCount : 1
+[2017.04.12-19.02.41:792][774]LogFbx: Loading FBX Scene from C:\Users\duck2\Desktop\q1.FBX
+[2017.04.12-19.02.41:812][774]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.12-19.02.48:239][774]LogFbx: Loading FBX Scene from C:\Users\duck2\Desktop\q1.FBX
+[2017.04.12-19.02.48:247][774]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.12-19.02.48:265][774]LogLinker:Warning: '/Game/Landscapes/ThirdPersonBP/q/02_-_Default' 파일을 찾을 수 없습니다.
+[2017.04.12-19.02.48:266][774]LogLinker:Warning: '/Game/Landscapes/ThirdPersonBP/q/02_-_Default' 파일을 찾을 수 없습니다.
+[2017.04.12-19.02.48:294][774]LogLinker:Warning: '/Game/Landscapes/ThirdPersonBP/q/Q' 파일을 찾을 수 없습니다.
+[2017.04.12-19.02.48:294][774]LogLinker:Warning: '/Game/Landscapes/ThirdPersonBP/q/Q' 파일을 찾을 수 없습니다.
+[2017.04.12-19.02.48:295][774]LogUObjectGlobals:Warning: 'Texture /Game/Landscapes/ThirdPersonBP/q/Q.Q' 오브젝트를 찾는 데 실패했습니다.
+[2017.04.12-19.02.48:338][774]Format of this PSD is not supported
+[2017.04.12-19.02.48:341][774]Error: Texture import failed
+[2017.04.12-19.02.48:385][774]LogMaterial: Missing cached shader map for material 02_-_Default, compiling. 
+[2017.04.12-19.02.48:506][774]LogStaticMesh: q1 스태틱 메시 빌드중...
+[2017.04.12-19.02.48:533][774]LogStaticMesh: Built static mesh [0.03s] /Game/Landscapes/ThirdPersonBP/q/q1.q1
+[2017.04.12-19.02.48:592][774]FBXImport:Warning: 경고 경고: 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 올바른 버텍스 노멀을 유추할 수 있도록 FBX 익스포트가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2017.04.12-19.02.57:313][ 12]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\duck2\Desktop\qq.png)
+[2017.04.12-19.02.57:411][ 12]LogTexture:Display: 텍스처 빌드중: qq (AutoDXT)
+[2017.04.12-19.03.03:402][172]LogMaterial: Missing cached shader map for material qq_Mat, compiling. 
+[2017.04.12-19.03.08:926][491]LogActorFactory: Actor Factory created q1
+[2017.04.12-19.03.10:939][588]LogActorFactory: Actor Factory created q1
+[2017.04.12-19.04.03:253][806]LogMaterial: Missing cached shader map for material qq_Mat2, compiling. 
+[2017.04.12-19.04.08:014][101]LogMaterial: Missing cached shader map for material qq_Mat2, compiling. 
+[2017.04.12-19.04.08:411][101]LogMaterial: Missing cached shader map for material qq_Mat2, compiling. 
+[2017.04.12-19.04.08:424][101]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.12-19.04.08:463][101]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.12-19.04.31:911][172]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.04.12-19.04.32:053][172]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.04.12-19.04.32:063][172]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.12-19.04.32:099][172]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.12-19.04.40:019][612]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.04.12-19.04.48:375][170]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (q1)
+[2017.04.12-19.05.36:337][385]LogSavePackage: Save=479.02ms
+[2017.04.12-19.05.36:337][385]LogSavePackage: Moving '../../../../../../Users/duck2/Downloads/map/Saved/NewMap0101_Auto1EA14A691466578316E075F8A6D178FED.tmp' to '../../../../../../Users/duck2/Downloads/map/Saved/Autosaves/Game/Landscapes/NewMap0101_Auto1.umap'
+[2017.04.12-19.05.36:346][385]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/duck2/Downloads/map/Saved/Autosaves/Game/Landscapes/NewMap0101_Auto1.umap
+[2017.04.12-19.05.36:357][385]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Landscapes/NewMap0101' took 0.683
+[2017.04.12-19.05.36:357][385]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.683
+[2017.04.12-19.05.36:363][385]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Landscapes/ThirdPersonBP/q/q1] ([1] browsable assets)...
+[2017.04.12-19.05.36:385][385]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Landscapes/ThirdPersonBP/q/q1.q1]
+[2017.04.12-19.05.36:385][385]OBJ SavePackage: Finished generating thumbnails for package [/Game/Landscapes/ThirdPersonBP/q/q1]
+[2017.04.12-19.05.36:405][385]LogSavePackage: Save=14.99ms
+[2017.04.12-19.05.36:405][385]LogSavePackage: Moving '../../../../../../Users/duck2/Downloads/map/Saved/q1_Auto12421AC804ADC5966687CB28CB604618F.tmp' to '../../../../../../Users/duck2/Downloads/map/Saved/Autosaves/Game/Landscapes/ThirdPersonBP/q/q1_Auto1.uasset'
+[2017.04.12-19.05.36:408][385]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/duck2/Downloads/map/Saved/Autosaves/Game/Landscapes/ThirdPersonBP/q/q1_Auto1.uasset
+[2017.04.12-19.05.36:409][385]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Landscapes/ThirdPersonBP/q/qq] ([1] browsable assets)...
+[2017.04.12-19.05.36:419][385]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Landscapes/ThirdPersonBP/q/qq.qq]
+[2017.04.12-19.05.36:419][385]OBJ SavePackage: Finished generating thumbnails for package [/Game/Landscapes/ThirdPersonBP/q/qq]
+[2017.04.12-19.05.36:444][385]LogSavePackage: Save=20.07ms
+[2017.04.12-19.05.36:444][385]LogSavePackage: Moving '../../../../../../Users/duck2/Downloads/map/Saved/qq_Auto11BB9DAE046BBDD1991FEDF92C2F5BF50.tmp' to '../../../../../../Users/duck2/Downloads/map/Saved/Autosaves/Game/Landscapes/ThirdPersonBP/q/qq_Auto1.uasset'
+[2017.04.12-19.05.36:447][385]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/duck2/Downloads/map/Saved/Autosaves/Game/Landscapes/ThirdPersonBP/q/qq_Auto1.uasset
+[2017.04.12-19.05.36:449][385]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Landscapes/ThirdPersonBP/q/02_-_Default] ([1] browsable assets)...
+[2017.04.12-19.05.36:465][385]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Landscapes/ThirdPersonBP/q/02_-_Default.02_-_Default]
+[2017.04.12-19.05.36:465][385]OBJ SavePackage: Finished generating thumbnails for package [/Game/Landscapes/ThirdPersonBP/q/02_-_Default]
+[2017.04.12-19.05.36:485][385]LogSavePackage: Save=14.89ms
+[2017.04.12-19.05.36:485][385]LogSavePackage: Moving '../../../../../../Users/duck2/Downloads/map/Saved/02_-_Default_Auto17E425BF74998C0E637604F908AD7D076.tmp' to '../../../../../../Users/duck2/Downloads/map/Saved/Autosaves/Game/Landscapes/ThirdPersonBP/q/02_-_Default_Auto1.uasset'
+[2017.04.12-19.05.36:490][385]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/duck2/Downloads/map/Saved/Autosaves/Game/Landscapes/ThirdPersonBP/q/02_-_Default_Auto1.uasset
+[2017.04.12-19.05.36:491][385]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Landscapes/ThirdPersonBP/q/qq_Mat] ([1] browsable assets)...
+[2017.04.12-19.05.36:505][385]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Landscapes/ThirdPersonBP/q/qq_Mat.qq_Mat]
+[2017.04.12-19.05.36:505][385]OBJ SavePackage: Finished generating thumbnails for package [/Game/Landscapes/ThirdPersonBP/q/qq_Mat]
+[2017.04.12-19.05.36:521][385]LogSavePackage: Save=13.42ms
+[2017.04.12-19.05.36:521][385]LogSavePackage: Moving '../../../../../../Users/duck2/Downloads/map/Saved/qq_Mat_Auto1B44869304C81A488BF25549F03F02654.tmp' to '../../../../../../Users/duck2/Downloads/map/Saved/Autosaves/Game/Landscapes/ThirdPersonBP/q/qq_Mat_Auto1.uasset'
+[2017.04.12-19.05.36:524][385]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/duck2/Downloads/map/Saved/Autosaves/Game/Landscapes/ThirdPersonBP/q/qq_Mat_Auto1.uasset
+[2017.04.12-19.05.36:526][385]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Landscapes/ThirdPersonBP/q/qq_Mat2] ([1] browsable assets)...
+[2017.04.12-19.05.36:542][385]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Landscapes/ThirdPersonBP/q/qq_Mat2.qq_Mat2]
+[2017.04.12-19.05.36:542][385]OBJ SavePackage: Finished generating thumbnails for package [/Game/Landscapes/ThirdPersonBP/q/qq_Mat2]
+[2017.04.12-19.05.36:559][385]LogSavePackage: Save=14.75ms
+[2017.04.12-19.05.36:559][385]LogSavePackage: Moving '../../../../../../Users/duck2/Downloads/map/Saved/qq_Mat2_Auto1DB12BD734F473940076B5CB89BC588DB.tmp' to '../../../../../../Users/duck2/Downloads/map/Saved/Autosaves/Game/Landscapes/ThirdPersonBP/q/qq_Mat2_Auto1.uasset'
+[2017.04.12-19.05.36:563][385]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/duck2/Downloads/map/Saved/Autosaves/Game/Landscapes/ThirdPersonBP/q/qq_Mat2_Auto1.uasset
+[2017.04.12-19.05.36:563][385]LogFileHelpers: Auto-saving content packages took 0.203
+[2017.04.12-19.06.04:993][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.12-19.06.04:994][222]PIE: New page: PIE 세션: NewMap0101 (2017. 4. 13. 오후 1:06:04)
+[2017.04.12-19.06.04:995][222]LogPlayLevel: Creating play world package: /Game/Landscapes/UEDPIE_0_NewMap0101
+[2017.04.12-19.06.05:057][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061954s)
+[2017.04.12-19.06.05:063][222]LogAIModule: Creating AISystem for world NewMap0101
+[2017.04.12-19.06.05:071][222]LogPlayLevel: PIE: World Init took: (0.013801s)
+[2017.04.12-19.06.05:072][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Landscapes/NewMap0101.NewMap0101 to /Game/Landscapes/UEDPIE_0_NewMap0101.NewMap0101 (0.076960s)
+[2017.04.12-19.06.05:163][222]LogInit: XAudio2 using '헤드폰(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.12-19.06.05:226][222]LogInit: FAudioDevice initialized.
+[2017.04.12-19.06.05:317][222]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2017.04.12-19.06.05:396][222]LogWorld: Bringing World /Game/Landscapes/UEDPIE_0_NewMap0101.NewMap0101 up for play (max tick rate 0) at 2017.04.13-04.06.05
+[2017.04.12-19.06.05:402][222]LogWorld: Bringing up level for play took: 0.078458
+[2017.04.12-19.06.05:461][222]PIE: 정보 /Game/Landscapes/UEDPIE_0_NewMap0101 에 대한 에디터에서 플레이 시작 시간: -0.334
+[2017.04.12-19.06.36:626][340]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (q1)
+[2017.04.12-19.06.37:998][423]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (q2)
+[2017.04.12-19.07.00:578][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.12-19.07.00:578][851]PIE: New page: PIE 세션: NewMap0101 (2017. 4. 13. 오후 1:07:00)
+[2017.04.12-19.07.00:578][851]LogPlayLevel: Creating play world package: /Game/Landscapes/UEDPIE_0_NewMap0101
+[2017.04.12-19.07.00:607][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029245s)
+[2017.04.12-19.07.00:608][851]LogAIModule: Creating AISystem for world NewMap0101
+[2017.04.12-19.07.00:609][851]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2017.04.12-19.07.00:609][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Landscapes/NewMap0101.NewMap0101 to /Game/Landscapes/UEDPIE_0_NewMap0101.NewMap0101 (0.030746s)
+[2017.04.12-19.07.00:681][851]LogInit: XAudio2 using '헤드폰(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.12-19.07.00:723][851]LogInit: FAudioDevice initialized.
+[2017.04.12-19.07.00:792][851]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2017.04.12-19.07.00:857][851]LogWorld: Bringing World /Game/Landscapes/UEDPIE_0_NewMap0101.NewMap0101 up for play (max tick rate 0) at 2017.04.13-04.07.00
+[2017.04.12-19.07.00:859][851]LogWorld: Bringing up level for play took: 0.064922
+[2017.04.12-19.07.00:863][851]PIE: 정보 /Game/Landscapes/UEDPIE_0_NewMap0101 에 대한 에디터에서 플레이 시작 시간: 1.069
+[2017.04.12-19.07.45:638][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscapes/NewMap0101" FILE="../../../../../../Users/duck2/Downloads/map/Content/Landscapes/NewMap0101.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.12-19.07.46:071][638]LogSavePackage: Save=376.85ms
+[2017.04.12-19.07.46:071][638]LogSavePackage: Moving '../../../../../../Users/duck2/Downloads/map/Saved/NewMap0101215475B44E41C9CD222F60998E0374B1.tmp' to '../../../../../../Users/duck2/Downloads/map/Content/Landscapes/NewMap0101.umap'
+[2017.04.12-19.07.46:079][638]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/NewMap0101.umap
+[2017.04.12-19.07.46:108][638]LogFileHelpers: Saving map 'NewMap0101' took 1.717
+[2017.04.12-19.07.46:152][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscapes/ThirdPersonBP/q/02_-_Default" FILE="../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/q/02_-_Default.uasset" SILENT=true
+[2017.04.12-19.07.46:167][638]LogSavePackage: Save=11.55ms
+[2017.04.12-19.07.46:167][638]LogSavePackage: Moving '../../../../../../Users/duck2/Downloads/map/Saved/02_-_Default740B39C74389B8ED907421B5ADC816D1.tmp' to '../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/q/02_-_Default.uasset'
+[2017.04.12-19.07.46:173][638]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/q/02_-_Default.uasset
+[2017.04.12-19.07.46:203][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscapes/ThirdPersonBP/q/q1" FILE="../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/q/q1.uasset" SILENT=true
+[2017.04.12-19.07.46:218][638]LogSavePackage: Save=12.06ms
+[2017.04.12-19.07.46:218][638]LogSavePackage: Moving '../../../../../../Users/duck2/Downloads/map/Saved/q1B45F0FFE4C7C8C01DC64C9B7959AE93E.tmp' to '../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/q/q1.uasset'
+[2017.04.12-19.07.46:224][638]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/q/q1.uasset
+[2017.04.12-19.07.46:241][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscapes/ThirdPersonBP/q/qq" FILE="../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/q/qq.uasset" SILENT=true
+[2017.04.12-19.07.46:345][638]LogSavePackage: Save=101.48ms
+[2017.04.12-19.07.46:345][638]LogSavePackage: Moving '../../../../../../Users/duck2/Downloads/map/Saved/qqE18D60D548BA4FD3071754A32D8E94CF.tmp' to '../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/q/qq.uasset'
+[2017.04.12-19.07.46:354][638]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/q/qq.uasset
+[2017.04.12-19.07.46:384][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscapes/ThirdPersonBP/q/qq_Mat" FILE="../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/q/qq_Mat.uasset" SILENT=true
+[2017.04.12-19.07.46:401][638]LogSavePackage: Save=13.17ms
+[2017.04.12-19.07.46:401][638]LogSavePackage: Moving '../../../../../../Users/duck2/Downloads/map/Saved/qq_Mat4730F6614DA6FA9F7483DD8966442256.tmp' to '../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/q/qq_Mat.uasset'
+[2017.04.12-19.07.46:408][638]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/q/qq_Mat.uasset
+[2017.04.12-19.07.46:428][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Landscapes/ThirdPersonBP/q/qq_Mat2" FILE="../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/q/qq_Mat2.uasset" SILENT=true
+[2017.04.12-19.07.46:444][638]LogSavePackage: Save=12.97ms
+[2017.04.12-19.07.46:444][638]LogSavePackage: Moving '../../../../../../Users/duck2/Downloads/map/Saved/qq_Mat2F5A5BBC54D7173D2DBB700AFCC14A496.tmp' to '../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/q/qq_Mat2.uasset'
+[2017.04.12-19.07.46:453][638]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/duck2/Downloads/map/Content/Landscapes/ThirdPersonBP/q/qq_Mat2.uasset
+[2017.04.12-19.07.46:547][638]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.04.12-19.07.46:876][639]Cmd: QUIT_EDITOR
+[2017.04.12-19.07.47:967][639]LogExit: Preparing to exit.
+[2017.04.12-19.07.50:119][639]LogExit: Editor shut down
+[2017.04.12-19.07.50:125][639]LogExit: Transaction tracking system shut down
+[2017.04.12-19.07.52:463][639]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.12-19.07.52:463][639]LogExit: Object subsystem successfully closed.
+[2017.04.12-19.07.52:609][639]LogD3D11RHI: Shutdown
+[2017.04.12-19.07.52:609][639]LogD3D11RHI: CleanupD3DDevice
+[2017.04.12-19.07.52:857][639]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.12-19.07.53:093][639]LogModuleManager: Shutting down and abandoning module MaterialEditor (216)
+[2017.04.12-19.07.53:094][639]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (215)
+[2017.04.12-19.07.53:094][639]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (214)
+[2017.04.12-19.07.53:095][639]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2017.04.12-19.07.53:095][639]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2017.04.12-19.07.53:096][639]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2017.04.12-19.07.53:096][639]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2017.04.12-19.07.53:096][639]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2017.04.12-19.07.53:154][639]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2017.04.12-19.07.53:154][639]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2017.04.12-19.07.53:154][639]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2017.04.12-19.07.53:155][639]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2017.04.12-19.07.53:157][639]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2017.04.12-19.07.53:157][639]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2017.04.12-19.07.53:169][639]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2017.04.12-19.07.53:169][639]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2017.04.12-19.07.53:169][639]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2017.04.12-19.07.53:169][639]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2017.04.12-19.07.53:169][639]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2017.04.12-19.07.53:169][639]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2017.04.12-19.07.53:169][639]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2017.04.12-19.07.53:170][639]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2017.04.12-19.07.53:172][639]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2017.04.12-19.07.53:173][639]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2017.04.12-19.07.53:174][639]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2017.04.12-19.07.53:176][639]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2017.04.12-19.07.53:179][639]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2017.04.12-19.07.53:179][639]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2017.04.12-19.07.53:179][639]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2017.04.12-19.07.53:179][639]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2017.04.12-19.07.53:179][639]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2017.04.12-19.07.53:191][639]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2017.04.12-19.07.53:195][639]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2017.04.12-19.07.53:209][639]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2017.04.12-19.07.53:210][639]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2017.04.12-19.07.53:212][639]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2017.04.12-19.07.53:213][639]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2017.04.12-19.07.53:916][639]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2017.04.12-19.07.53:930][639]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2017.04.12-19.07.53:930][639]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2017.04.12-19.07.53:930][639]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2017.04.12-19.07.53:935][639]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2017.04.12-19.07.53:948][639]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2017.04.12-19.07.53:950][639]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2017.04.12-19.07.53:951][639]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2017.04.12-19.07.53:952][639]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2017.04.12-19.07.53:964][639]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2017.04.12-19.07.53:964][639]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2017.04.12-19.07.53:966][639]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2017.04.12-19.07.53:967][639]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2017.04.12-19.07.53:967][639]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2017.04.12-19.07.53:968][639]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2017.04.12-19.07.53:969][639]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2017.04.12-19.07.53:971][639]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2017.04.12-19.07.53:977][639]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2017.04.12-19.07.53:981][639]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2017.04.12-19.07.53:982][639]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2017.04.12-19.07.53:985][639]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2017.04.12-19.07.53:989][639]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2017.04.12-19.07.53:992][639]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2017.04.12-19.07.53:993][639]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2017.04.12-19.07.53:994][639]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2017.04.12-19.07.54:062][639]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2017.04.12-19.07.54:065][639]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2017.04.12-19.07.54:066][639]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2017.04.12-19.07.54:069][639]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2017.04.12-19.07.54:070][639]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2017.04.12-19.07.54:081][639]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2017.04.12-19.07.54:082][639]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2017.04.12-19.07.54:101][639]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2017.04.12-19.07.54:111][639]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2017.04.12-19.07.54:112][639]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2017.04.12-19.07.54:113][639]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2017.04.12-19.07.54:114][639]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2017.04.12-19.07.54:115][639]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2017.04.12-19.07.54:118][639]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2017.04.12-19.07.54:119][639]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2017.04.12-19.07.54:119][639]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2017.04.12-19.07.54:120][639]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2017.04.12-19.07.54:131][639]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2017.04.12-19.07.54:131][639]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2017.04.12-19.07.54:132][639]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2017.04.12-19.07.54:132][639]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2017.04.12-19.07.54:132][639]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2017.04.12-19.07.54:132][639]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2017.04.12-19.07.54:133][639]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2017.04.12-19.07.54:133][639]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2017.04.12-19.07.54:133][639]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2017.04.12-19.07.54:217][639]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2017.04.12-19.07.54:224][639]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2017.04.12-19.07.54:227][639]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2017.04.12-19.07.54:227][639]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2017.04.12-19.07.54:228][639]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2017.04.12-19.07.54:228][639]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2017.04.12-19.07.54:228][639]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2017.04.12-19.07.54:228][639]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2017.04.12-19.07.54:228][639]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2017.04.12-19.07.54:228][639]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2017.04.12-19.07.54:228][639]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2017.04.12-19.07.54:231][639]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2017.04.12-19.07.54:231][639]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2017.04.12-19.07.54:231][639]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2017.04.12-19.07.54:231][639]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2017.04.12-19.07.54:232][639]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2017.04.12-19.07.54:235][639]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2017.04.12-19.07.54:249][639]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2017.04.12-19.07.54:250][639]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2017.04.12-19.07.54:251][639]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2017.04.12-19.07.54:251][639]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2017.04.12-19.07.54:261][639]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2017.04.12-19.07.54:265][639]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2017.04.12-19.07.54:267][639]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2017.04.12-19.07.54:270][639]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2017.04.12-19.07.54:275][639]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2017.04.12-19.07.54:276][639]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2017.04.12-19.07.54:277][639]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2017.04.12-19.07.54:277][639]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2017.04.12-19.07.54:280][639]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2017.04.12-19.07.54:284][639]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2017.04.12-19.07.54:296][639]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2017.04.12-19.07.54:301][639]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2017.04.12-19.07.54:314][639]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2017.04.12-19.07.54:317][639]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2017.04.12-19.07.54:418][639]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.04.12-19.07.54:418][639]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.04.12-19.07.54:419][639]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.04.12-19.07.54:425][639]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.04.12-19.07.54:427][639]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.04.12-19.07.54:429][639]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.04.12-19.07.54:429][639]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.04.12-19.07.54:430][639]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.04.12-19.07.54:431][639]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.04.12-19.07.54:431][639]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.04.12-19.07.54:432][639]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.04.12-19.07.54:432][639]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.04.12-19.07.54:434][639]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.04.12-19.07.54:435][639]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.04.12-19.07.54:436][639]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.04.12-19.07.54:445][639]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.04.12-19.07.54:450][639]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.04.12-19.07.54:453][639]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.04.12-19.07.54:453][639]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.04.12-19.07.54:455][639]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.04.12-19.07.54:463][639]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.04.12-19.07.54:464][639]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.04.12-19.07.54:468][639]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.04.12-19.07.54:468][639]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.04.12-19.07.54:495][639]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.04.12-19.07.54:496][639]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.04.12-19.07.54:496][639]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.04.12-19.07.54:496][639]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.04.12-19.07.54:496][639]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.04.12-19.07.54:496][639]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.04.12-19.07.54:507][639]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.04.12-19.07.54:910][639]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.04.12-19.07.54:910][639]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.04.12-19.07.54:911][639]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.04.12-19.07.54:912][639]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.04.12-19.07.54:942][639]LogDerivedDataCache: Shutdown
+[2017.04.12-19.07.54:942][639]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.04.12-19.07.54:945][639]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.04.12-19.07.54:946][639]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.04.12-19.07.54:947][639]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.04.12-19.07.54:948][639]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.04.12-19.07.54:948][639]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.04.12-19.07.54:949][639]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.04.12-19.07.54:951][639]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.04.12-19.07.54:951][639]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.04.12-19.07.54:951][639]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.04.12-19.07.54:952][639]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.04.12-19.07.54:952][639]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.04.12-19.07.54:952][639]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.04.12-19.07.54:953][639]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.04.12-19.07.54:953][639]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.04.12-19.07.54:980][639]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.04.12-19.07.54:982][639]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.04.12-19.07.54:983][639]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.04.12-19.07.54:983][639]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.04.12-19.07.54:983][639]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.04.12-19.07.54:984][639]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.04.12-19.07.54:985][639]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.04.12-19.07.54:985][639]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.04.12-19.07.54:985][639]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.04.12-19.07.54:986][639]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.04.12-19.07.54:986][639]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.04.12-19.07.54:986][639]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.04.12-19.07.54:987][639]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.04.12-19.07.54:992][639]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.04.12-19.07.54:996][639]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.04.12-19.07.54:996][639]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.04.12-19.07.54:997][639]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.04.12-19.07.54:997][639]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.04.12-19.07.54:998][639]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.04.12-19.07.54:999][639]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.04.12-19.07.55:001][639]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.04.12-19.07.55:002][639]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.04.12-19.07.55:012][639]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.04.12-19.07.55:013][639]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.04.12-19.07.56:849][639]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.04.12-19.07.56:853][639]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.04.12-19.07.56:854][639]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.04.12-19.07.56:855][639]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.04.12-19.07.56:855][639]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.04.12-19.07.56:855][639]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.04.12-19.07.56:855][639]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.04.12-19.07.57:088][639]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.04.12-19.07.57:091][639]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.04.12-19.07.57:091][639]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.04.12-19.07.57:092][639]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.04.12-19.07.57:092][639]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.04.12-19.07.57:092][639]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.04.12-19.07.57:092][639]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.04.12-19.07.57:094][639]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.04.12-19.07.57:094][639]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.04.12-19.07.57:095][639]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.04.12-19.07.57:120][639]LogExit: Exiting.
+[2017.04.12-19.07.57:204][639]Log file closed, 04/13/17 04:07:57
